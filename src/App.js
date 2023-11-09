@@ -1,14 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles.css';
 
 function App() {
   return (
-    <div classname="calculator-grid">
-      <div classname="output">
-        <div classname="previous-operand"></div>
-        <div classname="current-operand"></div>
+    <div className="calculator-grid">
+      <div className="output">
+        <div className="previous-operand">hjgfiuyef</div>
+        <div className="current-operand">hvhkadfgk</div>
       </div>
-      <button classname="span-two">AC</button>
+      <button className="span-two">AC</button>
       <button>DEL</button>
       <button>/</button>
       <button>1</button>
@@ -25,7 +24,7 @@ function App() {
       <button>-</button>
       <button>.</button>
       <button>0</button>
-      <button classname="span-two">=</button>
+      <button className="span-two">=</button>
     </div>
   );
 }
